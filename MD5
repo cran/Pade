@@ -1,0 +1,10 @@
+a920559ddf2d7babf8fc98939915141e *DESCRIPTION
+dee65b3c3a6998540898ee4b5ae1845d *LICENSE
+df390c53434517b304ac5db487184641 *NAMESPACE
+3bd6443ad947daeb93acb9a084bb2cdd *R/Pade.R
+c6ae8abfd9dad8263562102dde2c2ac8 *README.md
+6bd1c9b02523c2d085f4a9b8e0c74580 *inst/NEWS.Rd
+c8e6fcb274b2dde8e074790afd56b1f4 *man/Pade-package.Rd
+6bab9aae3259b94d032a08152028cf20 *man/Pade.Rd
+b83352c452ef3adb70b2db474552bfdd *tests/testthat.R
+dd8a3f929cee0afdafd8da68bb730e3e *tests/testthat/test-Pade.R
