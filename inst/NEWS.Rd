@@ -2,6 +2,23 @@
 \alias{NEWS}
 \title{NEWS file for the Pade package}
 
+\section{Changes in version 1.0.3 (2020-11-10)}{
+  \subsection{Fixed}{
+    \itemize{
+      \item Corrected CRAN requests
+    }
+  }
+}
+
+\section{Changes in version 1.0.2 (2020-11-08)}{
+  \subsection{Changed}{
+    \itemize{
+      \item Changed tests to be compliant with \code{testthat} 3rd edition
+      \item Cleaned up documentation
+    }
+  }
+}
+
 \section{Changes in version 1.0.1 (2020-06-02)}{
   \subsection{Added}{
     \itemize{
@@ -75,7 +92,9 @@
 }
 
 \section{Changes in version 0.1-1 (2015-06-09)}{
-  \itemize{
-    \item Initial release
+  \subsection{Added}{
+    \itemize{
+      \item Initial release
+    }
   }
 }
