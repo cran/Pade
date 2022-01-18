@@ -1,10 +1,10 @@
 <!-- badges: start -->
 [![CRAN Latest Version & Release](https://www.r-pkg.org/badges/version-last-release/Pade)](https://CRAN.R-project.org/package=Pade)
-[![](https://cranlogs.r-pkg.org/badges/Pade)]
+[![](http://cranlogs.r-pkg.org/badges/last-month/Pade)](https://cran.r-project.org/package=Pade)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.4270254.svg)](https://doi.org/10.5281/zenodo.4270254)
 [![CII Best Practices](https://bestpractices.coreinfrastructure.org/projects/2033/badge)](https://bestpractices.coreinfrastructure.org/projects/2033)
-[![Travis build status](https://travis-ci.com/aadler/Pade.svg?branch=master)](https://travis-ci.com/aadler/Pade)
-[![AppVeyor build status](https://ci.appveyor.com/api/projects/status/github/aadler/Pade?branch=master&svg=true)](https://ci.appveyor.com/project/aadler/Pade)
-[![Codecov test coverage](https://codecov.io/gh/aadler/Pade/branch/master/graph/badge.svg)](https://codecov.io/gh/aadler/Pade?branch=master)
+[![R build status](https://github.com/aadler/Pade/workflows/R-CMD-check/badge.svg)](https://github.com/aadler/Pade/actions)
+[![Codecov test coverage](https://codecov.io/gh/aadler/Pade/branch/master/graph/badge.svg)](https://app.codecov.io/gh/aadler/Pade?branch=master)
 <!-- badges: end -->
 
 # Padé
@@ -26,13 +26,17 @@ of order \([L/M]\), "agrees" with the original function in order \(L + M\).
 More precisely, given
 
 \[
+\begin{equation}
 A(x) = \sum_{j=0}^\infty a_j x^j 
+\end{equation}
 \]
 
 the Padé approximant of order \([L/M]\) to \(A(x)\) has the property that
 
 \[
+\begin{equation}
 A(x) - \frac{P_L(x)}{Q_M(x)} = \mathcal{O}\left(x^{L + M + 1}\right) 
+\end{equation}
 \]
 
 The Padé approximant consistently has a wider radius of convergence than its
@@ -70,7 +74,8 @@ in increasing order.
 If you use the package, please cite it as:
 
   Avraham Adler (2015). Pade: Padé Approximant Coefficients.
-  R package version 1.0.3. https://CRAN.R-project.org/package=Pade
+  R package version 1.0.4. https://CRAN.R-project.org/package=Pade
+  doi: 10.5281/zenodo.4270254
 
 A BibTeX entry for LaTeX users is:
 
@@ -79,8 +84,9 @@ A BibTeX entry for LaTeX users is:
     title = {Pade: Padé Approximant Coefficients},
     author = {Avraham Adler},
     year = {2015},
-    note = {R package version 1.0.3},
+    note = {R package version 1.0.4},
     url = {https://CRAN.R-project.org/package=Pade},
+    doi = {10.5281/zenodo.4270254},
   }
 ```
 ## Contributions
@@ -106,7 +112,7 @@ character lines, two-space indentations).
 Please provide valid .Rd files and **not** roxygen-style documentation.
 
 ### Tests
-Please review the current test suite and supply similar `testthat`-compatible
+Please review the current test suite and supply similar `tinytest`-compatible
 unit tests for all added functionality. 
 
 ### Submission
