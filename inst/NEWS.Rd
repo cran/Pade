@@ -2,6 +2,17 @@
 \alias{NEWS}
 \title{NEWS file for the Pade package}
 
+\section{Changes in version 1.0.5 (2023-02-01)}{
+  \subsection{Changed}{
+    \itemize{
+      \item Updated help
+      \item Updated Github actions
+      \item Made code more consistent with style guide
+      \item CITATION converted to use \code{bibentry} at CRAN request
+    }
+  }
+}
+
 \section{Changes in version 1.0.4 (2022-01-18)}{
   \subsection{Changed}{
     \itemize{
