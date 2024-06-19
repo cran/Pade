@@ -6,6 +6,17 @@
 \encoding{UTF-8}
 \title{NEWS file for the Pade package}
 
+\section{Changes in version 1.0.7 (2024-06-19)}{
+  \subsection{Changed}{
+    \itemize{
+      \item Use native \acronym{CRAN} \acronym{DOI}.
+      \item Update \file{README} and documentation.
+      \item Add package metadata unit test.
+      \item Set up new version of \pkg{rhub} checking.
+    }
+  }
+}
+
 \section{Changes in version 1.0.6 (2023-10-12)}{
   \subsection{Changed}{
     \itemize{
