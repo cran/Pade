@@ -1,8 +1,8 @@
 Package: Pade
 Type: Package
 Title: Padé Approximant Coefficients
-Version: 1.0.7
-Date: 2024-06-19
+Version: 1.0.8
+Date: 2025-07-10
 Authors@R: c(person(given="Avraham", family="Adler",
     role=c("aut", "cph", "cre"), email="Avraham.Adler@gmail.com",
     comment = c(ORCID = "0000-0002-3039-0703")))
@@ -17,8 +17,9 @@ URL: https://github.com/aadler/Pade
 BugReports: https://github.com/aadler/Pade/issues
 Encoding: UTF-8
 NeedsCompilation: no
-Packaged: 2024-06-19 21:30:54 UTC; Parents
-Author: Avraham Adler [aut, cph, cre] (<https://orcid.org/0000-0002-3039-0703>)
+Packaged: 2025-07-10 22:30:10 UTC; Parents
+Author: Avraham Adler [aut, cph, cre] (ORCID:
+    <https://orcid.org/0000-0002-3039-0703>)
 Maintainer: Avraham Adler <Avraham.Adler@gmail.com>
 Repository: CRAN
-Date/Publication: 2024-06-19 21:40:10 UTC
+Date/Publication: 2025-07-10 22:40:02 UTC
